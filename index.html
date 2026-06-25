@@ -39,8 +39,7 @@
 
                   <!-- Description -->
                   <p>I'm a PhD student at MIT, where I work with <a href="https://www.mit.edu/~jda/">Jacob Andreas</a> in the <a href="https://lingo.csail.mit.edu/">Language and Intelligence Group</a> at <a href="https://www.csail.mit.edu">CSAIL</a>.
-                     My primary focus is on making artificial intelligence systems safer, more interpretable, and better
-                    aligned with human values.
+                     My primary focus is on making artificial intelligence systems safer and more interpretable. My work is supported by the National Science Foundation Graduate Research Fellowship Program (NSF GRFP).
                   </p>
           
 
@@ -51,7 +50,7 @@
                   </p>
 
                   <p>
-                    Last summer and fall, I interned with the <a href="https://www.kasl.ai/">Krueger AI Safety Lab</a> at the
+                    I previously interned with the <a href="https://www.kasl.ai/">Krueger AI Safety Lab</a> at the
                     University of Cambridge working alongside <a href="https://davidscottkrueger.com/">Prof. David Krueger</a>, <a
                       href="https://ekdeepslubana.github.io/">Dr. Ekdeep Singh Lubana</a>, and <a
                       href="https://x.com/LauraRuis">Laura Ruis</a> to develop new inference-time methods for model
@@ -105,6 +104,75 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/selfctrl.png" alt="Self-CTRL" width="160" style="border-style: none">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://arxiv.org/abs/2606.18327">
+                    <papertitle>Self-CTRL: Self-Consistency Training with Reinforcement Learning</papertitle>
+                  </a>
+                  <br>
+                  <strong>Itamar Pres</strong>,
+                  <a>Laura Ruis</a>,
+                  <a>Melat Ghebreselassie</a>,
+                  <a>Belinda Z. Li</a>,
+                  and
+                  <a>Jacob Andreas</a>
+
+                  <br>
+                  <em>Preprint</em>, 2026
+                  <br>
+
+
+                  <p>
+                    We introduce a method that optimizes for consistency between a language model's self-explanations and its
+                    behavior on related inputs, either updating explanations to better predict behavior or modifying behavior to
+                    align with explanations. On formal probabilistic reasoning tasks, our method raises the correlation between
+                    self-reported and measured latent biases. In a constitutional AI setting, it improves a third-party auditor's refusal-prediction accurac.
+
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/selfconsistency.png" alt="Self-Consistency" width="160" style="border-style: none">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://time-for-consistency.github.io/">
+                    <papertitle>Position: It's Time to Optimize for Self-Consistency</papertitle>
+                  </a>
+                  <br>
+                  <strong>Itamar Pres*</strong>,
+                  <a>Belinda Z. Li*</a>,
+                  <a>Laura Ruis*</a>,
+                  <a>Zifan Carl Guo</a>,
+                  <a>Keya Hu</a>,
+                  <a>Mehul Damani</a>,
+                  <a>Isha Puri</a>,
+                  <a>Ekdeep Singh Lubana</a>,
+                  and
+                  <a>Jacob Andreas</a>
+
+                  <br>
+                  <em>ICML</em>, 2025
+                  <br>
+
+
+                  <p>
+                    We argue that many failures in current LMs arise from a shared modeling assumption: that
+                    behavior can be specified and evaluated independently on single-output pairs. In this position paper, we propose
+                    <em>self-consistency</em> as a framework for understanding these failures. We observe that a wide variety of techniques
+                    designed to improve specific aspects of LM behavior—targeting properties as diverse as adversarial robustness and
+                    factual coherence—can be understood as special cases of a common "consistency optimization" procedure and
+                    addressed with a standard set of optimization tools. The same framework can be used to specify emerging model
+                    capabilities, such as introspection and self-improvement, by constraining a model's behavior to be consistent with
+                    its own descriptions of that behavior.
+
+                  </p>
+                </td>
+              </tr>
 
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
