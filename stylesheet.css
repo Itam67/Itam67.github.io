@@ -129,3 +129,109 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Award tags (Spotlight / Oral) */
+.award {
+  color: #c0392b;
+  font-weight: 700;
+}
+
+/* Publication thumbnails — uniform box regardless of source aspect ratio */
+.pub-thumb {
+  width: 160px;
+  height: 120px;
+  object-fit: contain;
+}
+
+/* Social icon row */
+.social-icons {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 9px;
+  color: #1772d0;
+}
+
+.social-icons a:hover {
+  color: #f09228;
+}
+
+.social-icons svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+/* News / updates list */
+.news-list {
+  max-height: 200px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0 4px 0 0;
+  list-style: none;
+}
+
+.news-list li {
+  margin-bottom: 7px;
+  line-height: 1.45;
+}
+
+.news-date {
+  color: #888;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 82px;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+  }
+
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a,
+  strong,
+  heading,
+  papertitle,
+  name {
+    color: #e4e4e4;
+  }
+
+  a {
+    color: #4ea1f7;
+  }
+
+  a:focus,
+  a:hover {
+    color: #f09228;
+  }
+
+  .social-icons a {
+    color: #4ea1f7;
+  }
+
+  .social-icons a:hover {
+    color: #f09228;
+  }
+
+  .news-date {
+    color: #9a9a9a;
+  }
+
+  .award {
+    color: #ff6b5e;
+  }
+
+  span.highlight {
+    background-color: #4a4a2a;
+  }
+}
